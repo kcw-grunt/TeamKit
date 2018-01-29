@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TeamKit_Example' do
+  pod 'TeamKit', :path => '../'
+
+  target 'TeamKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
